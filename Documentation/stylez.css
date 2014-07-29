@@ -1,0 +1,187 @@
+body {
+	background: url(middle.jpg);
+	background-repeat: no-repeat;
+	background-size: stretch;
+	background-repeat: repeat;
+}
+
+header{
+	text-align: center;
+}
+
+ul, li, aside{
+  text-align: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;  
+  -webkit-flex-flow: row wrap;
+  display: flex;
+  flex-flow: row wrap;	
+  font-weight: bold;
+  text-align: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.container {
+	align-items: center;
+}
+.art1 {
+	justify-content: center;
+}
+
+p {
+	background: skyblue;
+	font-size: 3em;
+	width: 700px;
+	height: 53px;
+	text-align: center;
+}
+
+ul {
+	justify-content: center;
+	order: 2;
+	margin-left: 100px;
+
+}
+
+li {
+	justify-content: flex-start;
+
+}
+
+article p {
+	margin-left: 26%;
+}
+.flex-item1 {
+  background: blue;
+  padding: 5px;
+  width: 575px;
+  height: 100px;
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+}
+
+.flex-item2 {
+  background: cyan;
+  padding: 5px;
+  width: 575px;
+  height: 100px;
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+}
+
+.flex-item3 {
+  background: purple;
+  padding: 5px;
+  width: 575px;
+  height: 100px;
+  
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+}
+
+.flex-item4 {
+  background: green;
+  padding: 5px;
+  width: 575px;
+  height: 100px;
+  align-self: flex-end;
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+}
+
+.flex-item5 {
+  background: pink;
+  padding: 5px;
+  width: 575px;
+  height: 100px;
+  
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+}
+
+.flex-item6 {
+  background: orange;
+  padding: 5px;
+  width: 575px;
+  height: 100px;
+  
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+}
+
+.flex-item7 {
+  background: tomato;
+  padding: 5px;
+  width: 575px;
+  height: 100px;
+
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+}
+
+.flex-item8 {
+  background: red;
+  padding: 5px;
+  width: 575px;
+  height: 100px;
+
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+}
+
+.aside1 {
+	background-color: gold;
+	width: 400px;
+	height: 400px;
+	order: 1;
+	margin-left: 25%;
+}
+
+aside img {
+	margin-top: 48px;
+	margin-left: 48px;
+}
+.aside2 {
+	background-color: gold;
+	width: 400px;
+	height: 400px;
+	float:left;
+	order: 3;
+	margin-left: 23%;
+}
+
+.aside3 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
